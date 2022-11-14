@@ -1,0 +1,83 @@
+.weatherMain{
+    border-radius: 20px;
+    padding: 50px;
+
+}
+.mainImage{
+    width:110px;
+    height: 90px;
+}
+.big-font{
+    font-size: 70px;
+    background: -webkit-linear-gradient(black,black, blue ,black, black);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.big-line{
+    width:750px;
+    height: 2px;
+    background-color: white;
+    border:1px solid white;
+    border-radius: 5px;
+    position: absolute;
+}
+.change-details{
+    cursor: pointer;
+    position:relative;
+    font-size:30px;
+    font-weight: bold;
+    background: -webkit-linear-gradient(black,black, blue ,black, black);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.change-details:hover{
+    transform: scale(1.5);
+}
+.line{
+    width: 80px;
+    height: 3px;
+    border:1px solid white;
+    border-radius: 25%;
+    background-color: white;
+    position: absolute;
+    top:400px;  
+ 
+}
+.Oslo{
+    background-image: url('../../images/Oslo.jpg');
+    opacity: 0.9;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 660px;
+
+}
+.Moscow{
+    background-image: url('../../images/Moscow.jpg');
+    opacity: 0.9;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 660px;
+   
+}
+.Tashkent{
+    background-image: url('../../images/Tashkent.jpg');
+    opacity: 0.9;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 660px;
+  
+}
+.one-hour{
+    border: 3px solid white;
+     border-radius: 15px; 
+     text-align:center;
+     color:darkslategrey;
+     background-image: linear-gradient(rgb(173, 192, 230), white,rgb(173, 187, 230));
+}
+.daily{
+    border: 3px solid white;
+    border-radius: 15px; 
+    text-align:center;
+    color:darkslategrey;
+    background-image: linear-gradient(rgb(173, 192, 230), white,rgb(173, 187, 230));
+}
