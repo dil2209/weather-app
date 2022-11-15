@@ -101,7 +101,7 @@ const dispatch = useDispatch()
       <div className='row'>
         <div className='col-md-10 offset-1'>
         <select className='form-control w-75 border rounded ms-5 mb-3 text-muted' onChange={(e)=>chooseLocation(e)}>
-        <option>Enter Location!</option>
+        <option>Select a city!</option>
         <option value="Tashkent, Uzbekistan"> Tashkent, Uzbekistan</option>
         <option value="Moscow, Russia"> Moscow, Russia</option>
         <option value="Oslo, Norway"> Oslo, Norway</option>

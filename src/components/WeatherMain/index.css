@@ -31,7 +31,7 @@
     -webkit-text-fill-color: transparent;
 }
 .change-details:hover{
-    transform: scale(1.5);
+    transform: scale(1.1);
 }
 .line{
     width: 80px;
@@ -45,7 +45,6 @@
 }
 .Oslo{
     background-image: url('../../images/Oslo.jpg');
-    opacity: 0.9;
     background-repeat: no-repeat;
     background-size: cover;
     height: 660px;
@@ -53,7 +52,6 @@
 }
 .Moscow{
     background-image: url('../../images/Moscow.jpg');
-    opacity: 0.9;
     background-repeat: no-repeat;
     background-size: cover;
     height: 660px;
@@ -61,7 +59,6 @@
 }
 .Tashkent{
     background-image: url('../../images/Tashkent.jpg');
-    opacity: 0.9;
     background-repeat: no-repeat;
     background-size: cover;
     height: 660px;
@@ -80,4 +77,7 @@
     text-align:center;
     color:darkslategrey;
     background-image: linear-gradient(rgb(173, 192, 230), white,rgb(173, 187, 230));
+}
+.icons{
+    height:25px;
 }
